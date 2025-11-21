@@ -195,9 +195,13 @@ def seed_demo():
         )
 
     def upsert_offer(o: BonusOffer):
+        # Avoid conflicting updates of the same path: keep clicks only in $setOnInsert
+        offer_data = o.model_dump()
+        if "clicks" in offer_data:
+            offer_data.pop("clicks")
         db["bonusoffer"].update_one(
             {"partner_slug": o.partner_slug, "title": o.title},
-            {"$set": {**o.model_dump(), "updated_at": now}, "$setOnInsert": {"created_at": now, "clicks": 0}},
+            {"$set": {**offer_data, "updated_at": now}, "$setOnInsert": {"created_at": now, "clicks": 0}},
             upsert=True,
         )
 

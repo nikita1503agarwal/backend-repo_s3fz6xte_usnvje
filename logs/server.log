@@ -1,55 +1,23 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [247] using StatReload
-INFO:     Started server process [249]
+INFO:     Started reloader process [317] using StatReload
+INFO:     Started server process [319]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:34738 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:55378 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55372 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55378 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55406 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55390 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55382 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55390 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55406 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48810 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48836 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48828 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48822 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48810 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48828 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48836 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48822 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48828 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48810 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48836 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48822 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48828 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48810 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48836 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48822 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48828 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48810 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48838 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48836 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48822 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48828 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48838 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:48836 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35676 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35696 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35686 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35682 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35710 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35696 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35686 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35682 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35682 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35696 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35710 - "GET /api/articles HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35686 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35682 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35676 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35686 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
-INFO:     172.20.0.1:35710 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35350 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:35376 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35362 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35414 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35376 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35392 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35408 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35376 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:35392 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36992 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36992 - "GET /api/partners?featured=true HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37008 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36992 - "GET /api/offers?sort=featured HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37036 - "GET /api/articles HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37022 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
+INFO:     172.20.0.1:37036 - "GET /api/leaderboard?period=weekly HTTP/1.1" 200 OK
+INFO:     172.20.0.1:36992 - "GET /api/articles HTTP/1.1" 200 OK
